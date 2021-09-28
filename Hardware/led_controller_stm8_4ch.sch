@@ -352,7 +352,6 @@ Wire Wire Line
 	10550 1950 10050 1950
 Wire Wire Line
 	10050 1950 10050 3200
-NoConn ~ 6600 1600
 NoConn ~ 6600 2400
 $Comp
 L Transistor_FET:IRLML6401 Q6
@@ -661,7 +660,7 @@ Wire Wire Line
 	2500 4600 2500 5300
 Wire Wire Line
 	2500 5700 2500 6100
-Text Label 7100 2000 2    50   ~ 0
+Text Label 7100 1600 2    50   ~ 0
 PWR_EN
 Text Label 7100 2800 2    50   ~ 0
 BAT_ADC_2
@@ -712,8 +711,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 2800 7100 2800
 Wire Wire Line
-	6600 2000 7100 2000
-Wire Wire Line
 	6600 2100 7100 2100
 Wire Wire Line
 	6600 2200 7100 2200
@@ -732,4 +729,7 @@ Wire Wire Line
 	6600 2600 7100 2600
 Wire Wire Line
 	4500 5900 4500 6100
+Wire Wire Line
+	6600 1600 7100 1600
+NoConn ~ 6600 2000
 $EndSCHEMATC
